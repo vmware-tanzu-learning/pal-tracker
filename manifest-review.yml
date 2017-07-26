@@ -3,3 +3,5 @@ applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
   host: ps-pal-tracker-review
+  services:
+  - tracker-database
