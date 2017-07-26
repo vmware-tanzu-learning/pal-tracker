@@ -18,7 +18,18 @@ run:
   args:
   - -exc
   - |
+
+    export DEBIAN_FRONTEND="noninteractive"
+
+    apt-get update
+
+    apt-get -y install mysql-server
+    service mysql start
+
     cd pal-tracker
+    mysql -uroot < databases/tracker/create_databases.sql
     chmod +x gradlew
-    ./gradlew -P version=$(cat ../version/number) build
+    ./gradlew -P version=$(cat ../version/number) testMigrate clean build || (service mysql stop && exit 1)
+    service mysql stop
+
     cp build/libs/pal-tracker-*.jar ../build-output
