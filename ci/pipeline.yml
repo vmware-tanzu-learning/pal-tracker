@@ -22,7 +22,7 @@ jobs:
   - get: pal-tracker
     trigger: true
   - task: build and test
-    file: ci/build.yml
+    file: pal-tracker/ci/build.yml
   - put: deploy
     params:
       manifest: pal-tracker/manifest.yml
