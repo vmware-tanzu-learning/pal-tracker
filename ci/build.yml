@@ -18,5 +18,5 @@ run:
   - -exc
   - |
     cd pal-tracker
-    ./gradlew build
+    gradlew build
     cp build/libs/pal-tracker.jar ../build-output
