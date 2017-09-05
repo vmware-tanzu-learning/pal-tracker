@@ -1,0 +1,7 @@
+cf-api-url: api.sys.longs.pal.pivotal.io
+cf-username: sarthak.satish@capgemini.com
+cf-password: caa0ed55
+cf-org: ssatish-pal
+github-repository: git@github.com:sarsatis/pal-tracker.git
+github-private-key: |
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCsDGutl6al/PkMO9zQYBjQM9gauO0i5tUpCAdn4qjG0HJ4Cfm/AXVV2c8ZRer+cOIcB25PCpRgko5sNxYK8QNGU28KlBwcOMlZy5KaeMD+W7UoYkDyD1+Yv5HiNm6e7CM/2dTuDiFyuTTIqIr0QfAtzNedHxcDwVBhsvhCkea+VNPYCFJdYmAfTRDRlrdBVEbgU67trjeK+6ybZS1iDvS1m9vc+CAj/PDpWt1JpmcHxUqA0QC7dfq2b3dbiMIzQgMx6i62BRp1ZZaQO84dlQmyeCI5mHvl7S2bJ5eucTP9ChGMbbvRSDwEWPTTz7icCV9F92lJ57whqK3GF+6I1W1dewAYt9ggQzdzdzLNx9vOT2b7M9oKb6Brr0qc49CHBrHm+PZyzT7jIo0xfDt+fxC/0huk23B9vM+rWMINXaxxvrWBKK83oD1/jmR1PKXNau/yW9qXvTRM8M/KdYI6EnKSOp/yr6r6/JSUjMl3T/bg6ZfdU0e8uZEiIk7Ouupl80Kwnwz+i65BwwJnZDZWzHsTMW1eVqVK3ZfZr+PJHP+hA+n85OE+k70QUGoLWUFTOe56oEVqr3JAyJnLzo5D9TkIObzRexfhGUJye9EW4yJWr+/BQOx3fOI5FMRlCgmJvZkocyvJuTwJzboJhTbrI48TfZiqMv0JmSaLHm/sluHbXw== sarthak.satish@capgemini.com
