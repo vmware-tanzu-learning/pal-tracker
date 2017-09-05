@@ -1,31 +1,22 @@
----
-resources:
-- name: pal-tracker
-  type: git
-  source:
-    uri: {{github-repository}}
-    branch: master
-    private_key: {{github-private-key}}
+platform: linux
 
-- name: deploy
-  type: cf
+image_resource:
+  type: docker-image
   source:
-    api: {{cf-api-url}}
-    username: {{cf-username}}
-    password: {{cf-password}}
-    organization: {{cf-org}}
-    space: sandbox
+    repository: openjdk
+    tag: '8-jdk'
 
-jobs:
-- name: build-and-deploy
-  plan:
-  - get: pal-tracker
-    trigger: true
-  - task: build and test
-    file: D:\Users\sarsatis\Desktop\workspace\pal-tracker\ci\build.yml
-  - put: deploy
-    params:
-      manifest: pal-tracker/manifest.yml
-      path: build-output/pal-tracker.jar
-      environment_variables:
-        WELCOME_MESSAGE: "Hello from Concourse"
+inputs:
+  - name: pal-tracker
+
+outputs:
+  - name: build-output
+
+run:
+  path: bash
+  args:
+  - -exc
+  - |
+    cd pal-tracker
+    ./gradlew build
+    cp build/libs/pal-tracker.jar ../build-output
