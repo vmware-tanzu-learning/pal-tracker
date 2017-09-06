@@ -52,7 +52,7 @@ jobs:
     file: pal-tracker/ci/build.yml
   - put: pal-tracker-artifacts
     params:
-      file: build-output/*.jar
+      file: build-output/pal-tracker-*.jar
   - put: version
     params:
       file: version/number
@@ -66,7 +66,7 @@ jobs:
   - put: review-deployment
     params:
       manifest: pal-tracker/manifest-review.yml
-      path: pal-tracker-artifacts/*.jar
+      path: pal-tracker-artifacts/pal-tracker-*.jar
       environment_variables:
         WELCOME_MESSAGE: "Hello from the review environment"
 
@@ -78,6 +78,6 @@ jobs:
   - put: production-deployment
     params:
       manifest: pal-tracker/manifest-production.yml
-      path: pal-tracker-artifacts/*.jar
+      path: pal-tracker-artifacts/pal-tracker-*.jar
       environment_variables:
         WELCOME_MESSAGE: "Hello from the production environment"
