@@ -1,6 +1,6 @@
-aws-access-key-id:AKIAIITPJB4UBIZLSOFA
-aws-secrect-access-key:+aKJ8L+DVlM/GtJAAqG/pmenOp1SuzB1Cc6vLnah
-aws-bucket:student-artifacts-evans
+aws-access-key-id: AKIAIITPJB4UBIZLSOFA
+aws-secret-access-key: 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
+aws-bucket: student-artifacts-evans
 cf-api-url: api.sys.longs.pal.pivotal.io
 cf-username: sarthak.satish@capgemini.com
 cf-password: caa0ed55
