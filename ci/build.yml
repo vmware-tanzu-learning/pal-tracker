@@ -5,6 +5,7 @@ image_resource:
   source:
     repository: openjdk
     tag: '8-jdk'
+
 inputs:
   - name: pal-tracker
   - name: version
@@ -17,7 +18,25 @@ run:
   args:
   - -exc
   - |
+
+    function stop_mysql {
+      service mysql stop
+    }
+    trap stop_mysql EXIT
+
+    export DEBIAN_FRONTEND="noninteractive"
+
+    apt-get update
+    apt-get install -y software-properties-common
+    apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xcbcb082a1bb943db
+    apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
+    add-apt-repository 'deb http://ftp.osuosl.org/pub/mariadb/repo/10.2/ubuntu trusty main'
+
+    apt-get -y install mariadb-server
+    service mysql start
+
     cd pal-tracker
-    chmod +x gradlew
-    ./gradlew -P version=$(cat ../version/number) build
+
+    mysql -uroot < databases/tracker/create_databases.sql
+    ./gradlew -P version=$(cat ../version/number) testMigrate build
     cp build/libs/pal-tracker-*.jar ../build-output

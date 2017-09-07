@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class test.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class test.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/test.pivotal.pal.tracker.html">test.pivotal.pal.tracker</a> &gt; JdbcTimeEntryRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.551s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">createInsertsATimeEntryRecord</td>
+<td>0.030s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">createReturnsTheCreatedTimeEntry</td>
+<td>0.047s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteRemovesTheRecord</td>
+<td>0.032s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findFindsATimeEntry</td>
+<td>0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findReturnsNullWhenNotFound</td>
+<td>0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">listFindsAllTimeEntries</td>
+<td>0.031s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateReturnsTheUpdatedRecord</td>
+<td>0.333s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateUpdatesTheRecord</td>
+<td>0.047s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>08:31:03.295 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+08:31:03.310 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.471 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.471 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (1000, 123, 321, 'today', 8)]
+08:31:03.471 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.471 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.471 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+08:31:03.487 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [UPDATE time_entries SET project_id = ?, user_id = ?, date = ?,  hours = ? WHERE id = ?]
+08:31:03.487 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.503 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows
+08:31:03.503 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.503 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+08:31:03.503 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
+08:31:03.503 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.503 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.503 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+08:31:03.503 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.518 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.518 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL update and returning generated keys
+08:31:03.518 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement
+08:31:03.518 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.534 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows and returned 1 keys
+08:31:03.534 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.534 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+08:31:03.534 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
+08:31:03.534 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.550 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.550 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+08:31:03.550 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.566 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.566 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+08:31:03.566 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
+08:31:03.566 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.566 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.566 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+08:31:03.566 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.581 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.581 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL update and returning generated keys
+08:31:03.581 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement
+08:31:03.581 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.581 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows and returned 1 keys
+08:31:03.581 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.581 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+08:31:03.581 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
+08:31:03.581 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.596 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.596 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+08:31:03.596 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [Select * from time_entries where id = ?]
+08:31:03.596 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.596 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.596 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+08:31:03.596 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.612 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.612 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (999, 123, 321, 'today', 8)]
+08:31:03.612 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.612 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.612 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+08:31:03.612 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [DELETE FROM time_entries WHERE id = ?]
+08:31:03.612 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.628 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows
+08:31:03.628 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.628 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+08:31:03.628 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [Select count(*) count from time_entries where id = ?]
+08:31:03.628 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.628 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.628 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+08:31:03.628 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.643 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.643 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (1000, 123, 321, 'today', 8)]
+08:31:03.643 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.643 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.643 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+08:31:03.643 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [UPDATE time_entries SET project_id = ?, user_id = ?, date = ?,  hours = ? WHERE id = ?]
+08:31:03.643 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.659 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows
+08:31:03.659 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.659 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+08:31:03.659 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
+08:31:03.659 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.659 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.659 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+08:31:03.659 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [Select * from time_entries where id = ?]
+08:31:03.659 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.675 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.675 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+08:31:03.675 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.675 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.675 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (999, 123, 321, 'today', 8)]
+08:31:03.675 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.690 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.690 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+08:31:03.690 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
+08:31:03.690 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.690 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.690 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+08:31:03.690 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.706 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.706 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (999, 123, 321, 'today', 8), (888, 456, 678, 'yesterday', 9)]
+08:31:03.706 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.706 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+08:31:03.706 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [SELECT id, project_id, user_id, date, hours FROM time_entries]
+08:31:03.706 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+08:31:03.721 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 3.4.1</a> at Sep 7, 2017 8:31:08 AM</p>
+</div>
+</div>
+</body>
+</html>
