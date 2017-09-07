@@ -38,5 +38,6 @@ run:
     cd pal-tracker
 
     mysql -uroot < databases/tracker/create_databases.sql
+    chmod +x gradlew
     ./gradlew -P version=$(cat ../version/number) testMigrate build
     cp build/libs/pal-tracker-*.jar ../build-output
