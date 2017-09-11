@@ -1,234 +1,234 @@
 
-	Ç07:31:57.175 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+	Ç08:53:20.669 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
 
-	Å07:31:57.191 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+	Å08:53:20.685 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-	Ä07:31:57.363 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+	Ä08:53:20.874 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-	Õ07:31:57.363 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (1000, 123, 321, 'today', 8)]
+	Õ08:53:20.874 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (1000, 123, 321, 'today', 8)]
 
-	Å07:31:57.363 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+	Å08:53:20.874 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-	Ä07:31:57.378 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+	Ä08:53:20.905 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-	m07:31:57.378 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+	m08:53:20.905 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
 
-	…07:31:57.378 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [UPDATE time_entries SET project_id = ?, user_id = ?, date = ?,  hours = ? WHERE id = ?]
+	…08:53:20.905 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [UPDATE time_entries SET project_id = ?, user_id = ?, date = ?,  hours = ? WHERE id = ?]
 
-	Å07:31:57.378 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+	Å08:53:20.905 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-	j07:31:57.394 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows
+	j08:53:20.921 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows
 
-	Ä07:31:57.394 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+	Ä08:53:20.921 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-	l07:31:57.394 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+	l08:53:20.921 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
 
-	Ω07:31:57.394 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
+	Ω08:53:20.921 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
 
-	Å07:31:57.394 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+	Å08:53:20.921 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-	Ä07:31:57.410 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+	Ä08:53:20.937 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Ç07:31:57.410 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+Ç08:53:20.937 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
 
-Å07:31:57.410 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:20.937 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.425 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:20.952 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Å07:31:57.425 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL update and returning generated keys
+Å08:53:20.952 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL update and returning generated keys
 
-p07:31:57.425 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement
+p08:53:20.952 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement
 
-Å07:31:57.425 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:20.952 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-~07:31:57.441 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows and returned 1 keys
+~08:53:20.968 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows and returned 1 keys
 
-Ä07:31:57.457 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:20.968 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-l07:31:57.457 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+l08:53:20.968 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
 
-Ω07:31:57.457 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
+Ω08:53:20.968 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
 
-Å07:31:57.457 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:20.968 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.457 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:20.984 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Ç07:31:57.457 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+Ç08:53:20.984 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
 
-Å07:31:57.457 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:20.984 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.472 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:20.999 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-l07:31:57.472 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+l08:53:20.999 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
 
-Ω07:31:57.472 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
+Ω08:53:20.999 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
 
-Å07:31:57.472 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:20.999 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.488 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:20.999 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Ç07:31:57.488 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+Ç08:53:20.999 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
 
-Å07:31:57.488 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:20.999 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.488 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.015 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Å07:31:57.488 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL update and returning generated keys
+Å08:53:21.015 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL update and returning generated keys
 
-p07:31:57.488 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement
+p08:53:21.015 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement
 
-Å07:31:57.488 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.015 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-~07:31:57.503 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows and returned 1 keys
+~08:53:21.030 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows and returned 1 keys
 
-Ä07:31:57.503 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.030 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-l07:31:57.503 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+l08:53:21.030 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
 
-Ω07:31:57.503 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
+Ω08:53:21.030 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
 
-Å07:31:57.503 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.030 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.519 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.030 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-l07:31:57.519 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+l08:53:21.030 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
 
-ö07:31:57.519 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [Select * from time_entries where id = ?]
+ö08:53:21.030 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [Select * from time_entries where id = ?]
 
-Å07:31:57.519 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.030 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.519 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.046 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Ç07:31:57.519 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+Ç08:53:21.046 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
 
-Å07:31:57.519 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.046 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.535 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.062 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Ã07:31:57.535 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (999, 123, 321, 'today', 8)]
+Ã08:53:21.062 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (999, 123, 321, 'today', 8)]
 
-Å07:31:57.535 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.062 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.550 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.077 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-m07:31:57.550 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+m08:53:21.077 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
 
-ò07:31:57.550 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [DELETE FROM time_entries WHERE id = ?]
+ò08:53:21.077 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [DELETE FROM time_entries WHERE id = ?]
 
-Å07:31:57.550 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.077 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-j07:31:57.550 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows
+j08:53:21.077 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows
 
-Ä07:31:57.550 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.077 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-l07:31:57.550 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+l08:53:21.077 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
 
-ß07:31:57.550 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [Select count(*) count from time_entries where id = ?]
+ß08:53:21.077 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [Select count(*) count from time_entries where id = ?]
 
-Å07:31:57.550 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.077 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.566 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.093 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Ç07:31:57.566 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+Ç08:53:21.093 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
 
-Å07:31:57.566 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.093 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.566 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.093 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Õ07:31:57.566 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (1000, 123, 321, 'today', 8)]
+Õ08:53:21.093 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (1000, 123, 321, 'today', 8)]
 
-Å07:31:57.566 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.093 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.582 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.109 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-m07:31:57.582 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
+m08:53:21.109 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL update
 
-…07:31:57.582 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [UPDATE time_entries SET project_id = ?, user_id = ?, date = ?,  hours = ? WHERE id = ?]
+…08:53:21.109 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [UPDATE time_entries SET project_id = ?, user_id = ?, date = ?,  hours = ? WHERE id = ?]
 
-Å07:31:57.582 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.109 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-j07:31:57.582 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows
+j08:53:21.109 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - SQL update affected 1 rows
 
-Ä07:31:57.597 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.109 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-l07:31:57.597 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+l08:53:21.109 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
 
-Ω07:31:57.597 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
+Ω08:53:21.109 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
 
-Å07:31:57.597 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.109 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.597 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.124 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-l07:31:57.597 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+l08:53:21.124 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
 
-ö07:31:57.597 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [Select * from time_entries where id = ?]
+ö08:53:21.124 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [Select * from time_entries where id = ?]
 
-Å07:31:57.597 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.124 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.597 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.124 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Ç07:31:57.597 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+Ç08:53:21.124 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
 
-Å07:31:57.597 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.124 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.613 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.140 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Ã07:31:57.613 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (999, 123, 321, 'today', 8)]
+Ã08:53:21.140 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (999, 123, 321, 'today', 8)]
 
-Å07:31:57.613 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.140 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.628 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.140 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-l07:31:57.628 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
+l08:53:21.140 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL query
 
-Ω07:31:57.628 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
+Ω08:53:21.140 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing prepared SQL statement [SELECT id, project_id, user_id, date, hours FROM time_entries WHERE id = ?]
 
-Å07:31:57.628 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.140 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.628 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.156 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Ç07:31:57.628 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
+Ç08:53:21.156 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [DELETE FROM time_entries]
 
-Å07:31:57.628 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.156 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.644 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.156 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-Ì07:31:57.644 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (999, 123, 321, 'today', 8), (888, 456, 678, 'yesterday', 9)]
+Ì08:53:21.156 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL statement [INSERT INTO time_entries (id, project_id, user_id, date, hours) VALUES (999, 123, 321, 'today', 8), (888, 456, 678, 'yesterday', 9)]
 
-Å07:31:57.644 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.156 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.660 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Ä08:53:21.171 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
 
-£07:31:57.660 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [SELECT id, project_id, user_id, date, hours FROM time_entries]
+£08:53:21.171 [Test worker] DEBUG org.springframework.jdbc.core.JdbcTemplate - Executing SQL query [SELECT id, project_id, user_id, date, hours FROM time_entries]
 
-Å07:31:57.660 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+Å08:53:21.171 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
 
-Ä07:31:57.660 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
- ∆07:31:57.910 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class test.pivotal.pal.trackerapi.HealthApiTest]
- ›07:31:57.910 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
- °07:31:57.910 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
- ä07:31:57.925 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [test.pivotal.pal.trackerapi.HealthApiTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
- ˇ07:31:57.941 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [test.pivotal.pal.trackerapi.HealthApiTest], using SpringBootContextLoader
- £07:31:57.941 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [test.pivotal.pal.trackerapi.HealthApiTest]: class path resource [test/pivotal/pal/trackerapi/HealthApiTest-context.xml] does not exist
- •07:31:57.941 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [test.pivotal.pal.trackerapi.HealthApiTest]: class path resource [test/pivotal/pal/trackerapi/HealthApiTestContext.groovy] does not exist
- â07:31:57.957 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [test.pivotal.pal.trackerapi.HealthApiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
- å07:31:58.003 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [test.pivotal.pal.trackerapi.HealthApiTest]
- ⁄07:31:58.035 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [test.pivotal.pal.trackerapi.HealthApiTest]: using defaults.
- Æ	07:31:58.050 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
- Á	07:31:58.066 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e39f4fc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57dc7619, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@75c4f91c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d96e2d8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6ca97182, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5871aeb0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@aafa0bb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@70550314, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@575749fd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2066989, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@75dbbb0a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2d4e5b06]
- «07:31:58.066 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [test.pivotal.pal.trackerapi.HealthApiTest]
- ˜07:31:58.066 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [test.pivotal.pal.trackerapi.HealthApiTest]
- «07:31:58.066 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [test.pivotal.pal.trackerapi.HealthApiTest]
- ˜07:31:58.066 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [test.pivotal.pal.trackerapi.HealthApiTest]
- Â07:31:58.082 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@747a9cbd testClass = HealthApiTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3808bb2b testClass = HealthApiTest, locations = '{}', classes = '{class io.pivotal.pal.tracker.PalTrackerApplication, class io.pivotal.pal.tracker.PalTrackerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@7c67014c, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6690a507, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2d399a9a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@779b1ba5], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
- «07:31:58.082 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [test.pivotal.pal.trackerapi.HealthApiTest]
- ˜07:31:58.082 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [test.pivotal.pal.trackerapi.HealthApiTest]
- Á07:31:58.082 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@747a9cbd testClass = HealthApiTest, testInstance = test.pivotal.pal.trackerapi.HealthApiTest@7f7674da, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3808bb2b testClass = HealthApiTest, locations = '{}', classes = '{class io.pivotal.pal.tracker.PalTrackerApplication, class io.pivotal.pal.tracker.PalTrackerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@7c67014c, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6690a507, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2d399a9a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@779b1ba5], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]].
- ú07:31:58.144 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
- ù07:31:58.144 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
- Ø07:31:58.144 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
- á07:31:58.144 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
- §07:31:58.144 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+Ä08:53:21.187 [Test worker] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+ ∆08:53:21.468 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class test.pivotal.pal.trackerapi.HealthApiTest]
+ ›08:53:21.484 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+ °08:53:21.484 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+ ä08:53:21.499 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [test.pivotal.pal.trackerapi.HealthApiTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+ ˇ08:53:21.531 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [test.pivotal.pal.trackerapi.HealthApiTest], using SpringBootContextLoader
+ £08:53:21.531 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [test.pivotal.pal.trackerapi.HealthApiTest]: class path resource [test/pivotal/pal/trackerapi/HealthApiTest-context.xml] does not exist
+ •08:53:21.531 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [test.pivotal.pal.trackerapi.HealthApiTest]: class path resource [test/pivotal/pal/trackerapi/HealthApiTestContext.groovy] does not exist
+ â08:53:21.531 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [test.pivotal.pal.trackerapi.HealthApiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+ å08:53:21.593 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [test.pivotal.pal.trackerapi.HealthApiTest]
+ ⁄08:53:21.640 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [test.pivotal.pal.trackerapi.HealthApiTest]: using defaults.
+ Æ	08:53:21.656 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+ Ë	08:53:21.671 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@75dbbb0a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2d4e5b06, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@40bbf7f3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71c0944c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@596b7295, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62294d5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@19b9ff8d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6cae7a02, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6ed342d8, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7c45f7eb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2a562a79, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@35b73b5b]
+ «08:53:21.687 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [test.pivotal.pal.trackerapi.HealthApiTest]
+ ˜08:53:21.687 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [test.pivotal.pal.trackerapi.HealthApiTest]
+ «08:53:21.687 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [test.pivotal.pal.trackerapi.HealthApiTest]
+ ˜08:53:21.687 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [test.pivotal.pal.trackerapi.HealthApiTest]
+ Â08:53:21.687 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@31b1fbaa testClass = HealthApiTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@19470d42 testClass = HealthApiTest, locations = '{}', classes = '{class io.pivotal.pal.tracker.PalTrackerApplication, class io.pivotal.pal.tracker.PalTrackerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@333bfbe9, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2027fcff, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@18b6b1d6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6e1c5ce2], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+ «08:53:21.687 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [test.pivotal.pal.trackerapi.HealthApiTest]
+ ˜08:53:21.687 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [test.pivotal.pal.trackerapi.HealthApiTest]
+ Á08:53:21.687 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@31b1fbaa testClass = HealthApiTest, testInstance = test.pivotal.pal.trackerapi.HealthApiTest@26a89830, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@19470d42 testClass = HealthApiTest, locations = '{}', classes = '{class io.pivotal.pal.tracker.PalTrackerApplication, class io.pivotal.pal.tracker.PalTrackerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@333bfbe9, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2027fcff, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@18b6b1d6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6e1c5ce2], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]].
+ ú08:53:21.762 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+ ù08:53:21.762 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+ Ø08:53:21.762 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+ á08:53:21.778 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+ §08:53:21.778 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
  
  )  .   ____          _            __ _ _
  * /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -238,63 +238,69 @@
  * =========|_|==============|___/=/_/_/_/
  , :: Spring Boot ::        (v1.5.4.RELEASE)
  
- ‚2017-09-11 07:31:58.519  INFO 5256 --- [    Test worker] t.pivotal.pal.trackerapi.HealthApiTest   : Starting HealthApiTest on LIN37000770 with PID 5256 (started by sarsatis in D:\Users\sarsatis\Desktop\workspace\pal-tracker)
- ¶2017-09-11 07:31:58.519  INFO 5256 --- [    Test worker] t.pivotal.pal.trackerapi.HealthApiTest   : No active profile set, falling back to default profiles: default
- ô2017-09-11 07:31:58.550  INFO 5256 --- [    Test worker] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45c30208: startup date [Mon Sep 11 07:31:58 IST 2017]; root of context hierarchy
- è2017-09-11 07:32:00.609  INFO 5256 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
- 2017-09-11 07:32:00.718  INFO 5256 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
- ì2017-09-11 07:32:00.718  INFO 5256 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
- ò2017-09-11 07:32:01.015  INFO 5256 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
- •2017-09-11 07:32:01.015  INFO 5256 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2465 ms
- ë2017-09-11 07:32:01.390  INFO 5256 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
- é2017-09-11 07:32:01.390  INFO 5256 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
- ò2017-09-11 07:32:01.390  INFO 5256 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
- ó2017-09-11 07:32:01.390  INFO 5256 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
- ô2017-09-11 07:32:01.390  INFO 5256 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
- ï2017-09-11 07:32:01.390  INFO 5256 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
- ò2017-09-11 07:32:01.390  INFO 5256 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
- õ2017-09-11 07:32:01.390  INFO 5256 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
- ≠2017-09-11 07:32:02.265  INFO 5256 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45c30208: startup date [Mon Sep 11 07:31:58 IST 2017]; root of context hierarchy
- Ò2017-09-11 07:32:02.344  INFO 5256 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/env],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> io.pivotal.pal.tracker.EnvController.getEnv()
- Ã2017-09-11 07:32:02.359  INFO 5256 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/time-entries/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<io.pivotal.pal.tracker.TimeEntry> io.pivotal.pal.tracker.TimeEntryController.update(java.lang.Long,io.pivotal.pal.tracker.TimeEntry)
- Æ2017-09-11 07:32:02.359  INFO 5256 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/time-entries/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<io.pivotal.pal.tracker.TimeEntry> io.pivotal.pal.tracker.TimeEntryController.delete(java.lang.Long)
- ©2017-09-11 07:32:02.359  INFO 5256 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/time-entries/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<io.pivotal.pal.tracker.TimeEntry> io.pivotal.pal.tracker.TimeEntryController.read(java.lang.Long)
- π2017-09-11 07:32:02.359  INFO 5256 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/time-entries],methods=[POST]}" onto public org.springframework.http.ResponseEntity<io.pivotal.pal.tracker.TimeEntry> io.pivotal.pal.tracker.TimeEntryController.create(io.pivotal.pal.tracker.TimeEntry)
- ¶2017-09-11 07:32:02.359  INFO 5256 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/time-entries],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.pivotal.pal.tracker.TimeEntry>> io.pivotal.pal.tracker.TimeEntryController.list()
- ”2017-09-11 07:32:02.359  INFO 5256 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String io.pivotal.pal.tracker.WelcomeController.sayHello()
- Õ2017-09-11 07:32:02.359  INFO 5256 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
- ﬂ2017-09-11 07:32:02.359  INFO 5256 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
- ‰2017-09-11 07:32:02.406  INFO 5256 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
- ‹2017-09-11 07:32:02.406  INFO 5256 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
- Ë2017-09-11 07:32:02.484  INFO 5256 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
- ’2017-09-11 07:32:02.844  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
- Õ2017-09-11 07:32:02.844  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
- ª2017-09-11 07:32:02.844  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
- …2017-09-11 07:32:02.844  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
- á2017-09-11 07:32:02.844  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
- «2017-09-11 07:32:02.844  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
- ”2017-09-11 07:32:02.859  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
- «2017-09-11 07:32:02.859  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
- ’2017-09-11 07:32:02.859  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
- ≈2017-09-11 07:32:02.859  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
- …2017-09-11 07:32:02.859  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
- ’2017-09-11 07:32:02.859  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
- ™2017-09-11 07:32:02.859  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
- œ2017-09-11 07:32:02.875  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
- ”2017-09-11 07:32:02.875  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
- “2017-09-11 07:32:02.875  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
- Õ2017-09-11 07:32:02.875  INFO 5256 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
- ç2017-09-11 07:32:03.203  INFO 5256 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 51633 (http)
- §2017-09-11 07:32:03.219  INFO 5256 --- [    Test worker] t.pivotal.pal.trackerapi.HealthApiTest   : Started HealthApiTest in 5.075 seconds (JVM running for 7.175)
-û2017-09-11 07:32:03.328  INFO 5256 --- [-auto-1-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
-¢2017-09-11 07:32:03.328  INFO 5256 --- [-auto-1-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
-≠2017-09-11 07:32:03.391  INFO 5256 --- [-auto-1-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 63 ms
+ ‚2017-09-11 08:53:22.184  INFO 6708 --- [    Test worker] t.pivotal.pal.trackerapi.HealthApiTest   : Starting HealthApiTest on LIN37000770 with PID 6708 (started by sarsatis in D:\Users\sarsatis\Desktop\workspace\pal-tracker)
+ ¶2017-09-11 08:53:22.184  INFO 6708 --- [    Test worker] t.pivotal.pal.trackerapi.HealthApiTest   : No active profile set, falling back to default profiles: default
+ ô2017-09-11 08:53:22.215  INFO 6708 --- [    Test worker] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@149f178c: startup date [Mon Sep 11 08:53:22 IST 2017]; root of context hierarchy
+ è2017-09-11 08:53:24.812  INFO 6708 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
+ 2017-09-11 08:53:24.827  INFO 6708 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+ ì2017-09-11 08:53:24.827  INFO 6708 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+ ò2017-09-11 08:53:25.124  INFO 6708 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+ •2017-09-11 08:53:25.124  INFO 6708 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2924 ms
+ é2017-09-11 08:53:25.562  INFO 6708 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+ ò2017-09-11 08:53:25.562  INFO 6708 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+ ó2017-09-11 08:53:25.562  INFO 6708 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ ô2017-09-11 08:53:25.562  INFO 6708 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ ï2017-09-11 08:53:25.577  INFO 6708 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+ ö2017-09-11 08:53:25.577  INFO 6708 --- [ost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+ ò2017-09-11 08:53:25.577  INFO 6708 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+ õ2017-09-11 08:53:25.577  INFO 6708 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+ ë2017-09-11 08:53:25.577  INFO 6708 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+ ‘2017-09-11 08:53:26.717  INFO 6708 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a0f2bf0, org.springframework.security.web.context.SecurityContextPersistenceFilter@2480a5d8, org.springframework.security.web.header.HeaderWriterFilter@12271ff8, org.springframework.security.web.authentication.logout.LogoutFilter@13b98c9b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7336e0c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a169954, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4aa3ea93, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40f7ee55, org.springframework.security.web.session.SessionManagementFilter@5912cf9c, org.springframework.security.web.access.ExceptionTranslationFilter@7dc97bb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f0f39e4]
+ ≠2017-09-11 08:53:26.828  INFO 6708 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@149f178c: startup date [Mon Sep 11 08:53:22 IST 2017]; root of context hierarchy
+ Ò2017-09-11 08:53:26.922  INFO 6708 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/env],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.String> io.pivotal.pal.tracker.EnvController.getEnv()
+ Ã2017-09-11 08:53:26.937  INFO 6708 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/time-entries/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<io.pivotal.pal.tracker.TimeEntry> io.pivotal.pal.tracker.TimeEntryController.update(java.lang.Long,io.pivotal.pal.tracker.TimeEntry)
+ Æ2017-09-11 08:53:26.937  INFO 6708 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/time-entries/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<io.pivotal.pal.tracker.TimeEntry> io.pivotal.pal.tracker.TimeEntryController.delete(java.lang.Long)
+ ©2017-09-11 08:53:26.937  INFO 6708 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/time-entries/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<io.pivotal.pal.tracker.TimeEntry> io.pivotal.pal.tracker.TimeEntryController.read(java.lang.Long)
+ π2017-09-11 08:53:26.937  INFO 6708 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/time-entries],methods=[POST]}" onto public org.springframework.http.ResponseEntity<io.pivotal.pal.tracker.TimeEntry> io.pivotal.pal.tracker.TimeEntryController.create(io.pivotal.pal.tracker.TimeEntry)
+ ¶2017-09-11 08:53:26.937  INFO 6708 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/time-entries],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<io.pivotal.pal.tracker.TimeEntry>> io.pivotal.pal.tracker.TimeEntryController.list()
+ ”2017-09-11 08:53:26.937  INFO 6708 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String io.pivotal.pal.tracker.WelcomeController.sayHello()
+ Õ2017-09-11 08:53:26.937  INFO 6708 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ ﬂ2017-09-11 08:53:26.937  INFO 6708 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ ‰2017-09-11 08:53:26.984  INFO 6708 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ ‹2017-09-11 08:53:26.984  INFO 6708 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ Ë2017-09-11 08:53:27.047  INFO 6708 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ ’2017-09-11 08:53:27.422  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+ Õ2017-09-11 08:53:27.422  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ ª2017-09-11 08:53:27.422  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+ ”2017-09-11 08:53:27.422  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ ™2017-09-11 08:53:27.422  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+ «2017-09-11 08:53:27.422  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ ’2017-09-11 08:53:27.437  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ œ2017-09-11 08:53:27.437  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ «2017-09-11 08:53:27.437  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ á2017-09-11 08:53:27.437  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+ ”2017-09-11 08:53:27.437  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+ “2017-09-11 08:53:27.437  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+ Õ2017-09-11 08:53:27.437  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ ’2017-09-11 08:53:27.437  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+ ≈2017-09-11 08:53:27.437  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ …2017-09-11 08:53:27.453  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ …2017-09-11 08:53:27.453  INFO 6708 --- [    Test worker] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+ ç2017-09-11 08:53:27.809  INFO 6708 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 52324 (http)
+ §2017-09-11 08:53:27.813  INFO 6708 --- [    Test worker] t.pivotal.pal.trackerapi.HealthApiTest   : Started HealthApiTest in 6.035 seconds (JVM running for 8.412)
+û2017-09-11 08:53:27.922  INFO 6708 --- [-auto-1-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+¢2017-09-11 08:53:27.938  INFO 6708 --- [-auto-1-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+≠2017-09-11 08:53:27.969  INFO 6708 --- [-auto-1-exec-10] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
  ‰Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
- ¸2017-09-11 07:32:03.719  INFO 5256 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest], using SpringBootContextLoader
- è2017-09-11 07:32:03.734  INFO 5256 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
- ®	2017-09-11 07:32:03.750  INFO 5256 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
- ‚	2017-09-11 07:32:03.750  INFO 5256 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1bdd4a08, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@755f5906, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7c5ea704, org.springframework.test.context.support.DirtiesContextTestExecutionListener@415faa97, org.springframework.test.context.transaction.TransactionalTestExecutionListener@30a325be, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f3bddc5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@36d43ba1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@a6334fe, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@23c46ed9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@42f04a91, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@55ee685d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@463972da]
-$ ˙2017-09-11 07:32:04.172  INFO 5256 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [test.pivotal.pal.trackerapi.WelcomeApiTest], using SpringBootContextLoader
-$ ç2017-09-11 07:32:04.172  INFO 5256 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [test.pivotal.pal.trackerapi.WelcomeApiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-$ ®	2017-09-11 07:32:04.187  INFO 5256 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-$ ‡	2017-09-11 07:32:04.187  INFO 5256 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@83ef08f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2b304d04, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@37996d26, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2541c3a0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5a04e50f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7375db26, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f797833, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@248ef6bf, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@59df43bc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4ae0f4a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4052470c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@133a6ab7]
+ ˚2017-09-11 08:53:28.360  INFO 6708 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [test.pivotal.pal.trackerapi.SecurityApiTest], using SpringBootContextLoader
+ é2017-09-11 08:53:28.360  INFO 6708 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [test.pivotal.pal.trackerapi.SecurityApiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+ ®	2017-09-11 08:53:28.376  INFO 6708 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+ ‚	2017-09-11 08:53:28.391  INFO 6708 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2c32f838, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@dbb9f0b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4e0b3cf4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@18a1cf73, org.springframework.test.context.transaction.TransactionalTestExecutionListener@23691767, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@72fb87c6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6580f9f1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@73cc6865, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@18f59b54, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@369efa3b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5433c268, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@44ac17cb]
+! ¸2017-09-11 08:53:28.516  INFO 6708 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest], using SpringBootContextLoader
+! è2017-09-11 08:53:28.516  INFO 6708 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+! ®	2017-09-11 08:53:28.516  INFO 6708 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+! „	2017-09-11 08:53:28.532  INFO 6708 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4be2c3a4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7f8375ff, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1f977d92, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4298e18d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1f3ae599, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7b72570c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5f2dde1d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5abcd8fc, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@12e2f81f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7b411778, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4a2de33b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@766aa9ba]
+' ˙2017-09-11 08:53:28.983  INFO 6708 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [test.pivotal.pal.trackerapi.WelcomeApiTest], using SpringBootContextLoader
+' ç2017-09-11 08:53:28.983  INFO 6708 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [test.pivotal.pal.trackerapi.WelcomeApiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+' ®	2017-09-11 08:53:28.983  INFO 6708 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+' ‚	2017-09-11 08:53:28.998  INFO 6708 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@9b08841, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5af6028d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@311b200e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3972f60a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@340d83e5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5e051d83, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@36f65d1d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@189a2f6f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@40509532, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@36cf61be, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@32d5dccf, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7bfd7cad]
