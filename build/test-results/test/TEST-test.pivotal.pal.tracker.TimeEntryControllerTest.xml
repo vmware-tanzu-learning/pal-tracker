@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.pivotal.pal.tracker.TimeEntryControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-09-11T04:43:42" hostname="LIN37000770" time="0.153">
+  <properties/>
+  <testcase name="testList" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.137"/>
+  <testcase name="testRead" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.0"/>
+  <testcase name="testRead_NotFound" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.0"/>
+  <testcase name="testUpdate_NotFound" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.0"/>
+  <testcase name="testCreate" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.0"/>
+  <testcase name="testDelete" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.0"/>
+  <testcase name="testUpdate" classname="test.pivotal.pal.tracker.TimeEntryControllerTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
