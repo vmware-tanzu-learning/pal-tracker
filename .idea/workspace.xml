@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4507249-bf96-4e8b-bd3a-907648edfe46" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/pal-tracker.jar" afterPath="$PROJECT_DIR$/build/libs/pal-tracker.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/pal-tracker.jar.original" afterPath="$PROJECT_DIR$/build/libs/pal-tracker.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.EnvControllerTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.EnvControllerTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.TimeEntryControllerTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.TimeEntryControllerTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.WelcomeControllerTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.WelcomeControllerTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.trackerapi.HealthApiTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.trackerapi.HealthApiTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.trackerapi.SecurityApiTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.trackerapi.SecurityApiTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.trackerapi.TimeEntryApiTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.trackerapi.TimeEntryApiTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.trackerapi.WelcomeApiTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.trackerapi.WelcomeApiTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/test.pivotal.pal.tracker.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/test.pivotal.pal.tracker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/test.pivotal.pal.trackerapi.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/test.pivotal.pal.trackerapi.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.tracker.EnvControllerTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.tracker.EnvControllerTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.tracker.TimeEntryControllerTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.tracker.TimeEntryControllerTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.tracker.WelcomeControllerTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.tracker.WelcomeControllerTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.HealthApiTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.HealthApiTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.SecurityApiTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.SecurityApiTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.TimeEntryApiTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.TimeEntryApiTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.WelcomeApiTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.WelcomeApiTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/WelcomeApiTest.java" afterPath="$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/WelcomeApiTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ci/variables.yml" afterPath="$PROJECT_DIR$/ci/variables.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -68,21 +38,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="build.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ci/build.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
+            <state relative-caret-position="368">
               <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PalTrackerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/PalTrackerApplication.java">
+      <file leaf-file-name="variables.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ci/variables.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -108,17 +88,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeEntryApiTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TimeEntryApiTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/TimeEntryApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
+            <state relative-caret-position="-197">
               <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WelcomeApiTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WelcomeApiTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/WelcomeApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="35">
@@ -131,7 +111,7 @@
       <file leaf-file-name="HealthApiTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/HealthApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="-32">
               <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding />
             </state>
@@ -153,16 +133,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeEntryController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -613,7 +583,6 @@
         <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/JdbcTimeEntryRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/PalTrackerApplication.java" />
         <option value="$PROJECT_DIR$/ci/build.yml" />
-        <option value="$PROJECT_DIR$/ci/variables.yml" />
         <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryHealthIndicator.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/tracker/TimeEntryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryController.java" />
@@ -626,6 +595,7 @@
         <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/SecurityApiTest.java" />
         <option value="$PROJECT_DIR$/manifest-production.yml" />
         <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/WelcomeApiTest.java" />
+        <option value="$PROJECT_DIR$/ci/variables.yml" />
       </list>
     </option>
   </component>
@@ -665,33 +635,7 @@
             <path>
               <item name="pal-tracker" type="b2602c69:ProjectViewProjectNode" />
               <item name="pal-tracker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="ci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pal-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pal-tracker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pal-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pal-tracker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="pal-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pal-tracker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pal-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pal-tracker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tracker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pal-tracker" type="b2602c69:ProjectViewProjectNode" />
@@ -713,15 +657,6 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pal-tracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pal-tracker" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pal" type="462c0819:PsiDirectoryNode" />
-              <item name="tracker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pal-tracker" type="b2602c69:ProjectViewProjectNode" />
@@ -1142,26 +1077,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ci/variables.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="63" lean-forward="false" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/pivotal/pal/tracker/TimeEntryRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ci/build.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1187,9 +1106,9 @@
         <state relative-caret-position="343">
           <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#457#458#0" expanded="false" />
+            <element signature="e#507#508#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1199,7 +1118,7 @@
         <state relative-caret-position="631">
           <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1236,14 +1155,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manifest-review.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1268,14 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/HealthApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/SecurityApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1284,18 +1187,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/TimeEntryApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/WelcomeApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
           <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci/build.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ci/variables.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/HealthApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/TimeEntryApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
           <folding />
         </state>
       </provider>
