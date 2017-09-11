@@ -6,4 +6,4 @@ applications:
   services:
   - tracker-database
   env:
-  SECURITY_FORCE_HTTPS: true
+    SECURITY_FORCE_HTTPS: true
