@@ -17,8 +17,6 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = PalTrackerApplication.class, webEnvironment = RANDOM_PORT)
 public class WelcomeApiTest {
-
-    
     private TestRestTemplate restTemplate;
 
     @LocalServerPort

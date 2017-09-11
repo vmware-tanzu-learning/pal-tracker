@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4507249-bf96-4e8b-bd3a-907648edfe46" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4.1/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/.gradle/3.4.1/fileContent/annotation-processors.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4.1/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.4.1/fileContent/fileContent.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/jvmClassSignatures.bin" afterPath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/jvmClassSignatures.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/test/pivotal/pal/trackerapi/WelcomeApiTest.class" afterPath="$PROJECT_DIR$/build/classes/test/test/pivotal/pal/trackerapi/WelcomeApiTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/pal-tracker.jar" afterPath="$PROJECT_DIR$/build/libs/pal-tracker.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/pal-tracker.jar.original" afterPath="$PROJECT_DIR$/build/libs/pal-tracker.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.EnvControllerTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.EnvControllerTest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest.html" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/test.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest.html" />
@@ -37,6 +32,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.SecurityApiTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.SecurityApiTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.TimeEntryApiTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.TimeEntryApiTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.WelcomeApiTest.xml" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-test.pivotal.pal.trackerapi.WelcomeApiTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/WelcomeApiTest.java" afterPath="$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/WelcomeApiTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -125,8 +121,8 @@
       <file leaf-file-name="WelcomeApiTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/WelcomeApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="35">
+              <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -628,12 +624,12 @@
         <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/HealthApiTest.java" />
         <option value="$PROJECT_DIR$/manifest-review.yml" />
         <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/SecurityApiTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/WelcomeApiTest.java" />
         <option value="$PROJECT_DIR$/manifest-production.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/WelcomeApiTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1030" />
@@ -892,7 +888,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1298,8 +1294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/pivotal/pal/trackerapi/WelcomeApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="35">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding />
         </state>
       </provider>
