@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.693s</div>
+<div class="counter">0.406s</div>
 <p>duration</p>
 </div>
 </td>
@@ -66,9 +66,6 @@
 <li>
 <a href="#tab1">Standard output</a>
 </li>
-<li>
-<a href="#tab2">Standard error</a>
-</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -82,27 +79,27 @@
 </thead>
 <tr>
 <td class="success">testCreate</td>
-<td>0.047s</td>
+<td>0.046s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelete</td>
-<td>0.068s</td>
+<td>0.079s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testList</td>
-<td>0.453s</td>
+<td>0.141s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testRead</td>
-<td>0.063s</td>
+<td>0.094s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testUpdate</td>
-<td>0.062s</td>
+<td>0.046s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -110,78 +107,10 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>08:31:03.925 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class test.pivotal.pal.trackerapi.TimeEntryApiTest]
-08:31:03.940 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-08:31:03.940 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-08:31:03.956 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-08:31:03.971 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest], using SpringBootContextLoader
-08:31:03.971 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest]: class path resource [test/pivotal/pal/trackerapi/TimeEntryApiTest-context.xml] does not exist
-08:31:03.971 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest]: class path resource [test/pivotal/pal/trackerapi/TimeEntryApiTestContext.groovy] does not exist
-08:31:03.971 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-08:31:04.018 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [test.pivotal.pal.trackerapi.TimeEntryApiTest]
-08:31:04.065 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [test.pivotal.pal.trackerapi.TimeEntryApiTest]: using defaults.
-08:31:04.065 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-08:31:04.096 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5cc38be1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6b7c4b5f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@65ae3bb9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@c281dbc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4c74035b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@455b8f39, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@51bc17d8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1d3525ae, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@71379388, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@680cf8d0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@59bf20de, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6d137612]
-08:31:04.096 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest]
-08:31:04.096 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [test.pivotal.pal.trackerapi.TimeEntryApiTest]
-08:31:04.096 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest]
-08:31:04.096 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [test.pivotal.pal.trackerapi.TimeEntryApiTest]
-08:31:04.096 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6cae7a02 testClass = TimeEntryApiTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6ed342d8 testClass = TimeEntryApiTest, locations = '{}', classes = '{class io.pivotal.pal.tracker.PalTrackerApplication, class io.pivotal.pal.tracker.PalTrackerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@6902b143, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@26c6eb30, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4f8a9f6d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@65abef18], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
-08:31:04.112 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest]
-08:31:04.112 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [test.pivotal.pal.trackerapi.TimeEntryApiTest]
-08:31:04.112 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@6cae7a02 testClass = TimeEntryApiTest, testInstance = test.pivotal.pal.trackerapi.TimeEntryApiTest@122f37c3, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6ed342d8 testClass = TimeEntryApiTest, locations = '{}', classes = '{class io.pivotal.pal.tracker.PalTrackerApplication, class io.pivotal.pal.tracker.PalTrackerApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@6902b143, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@26c6eb30, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4f8a9f6d, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@65abef18], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]]].
-08:31:04.175 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
-08:31:04.175 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
-08:31:04.175 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
-08:31:04.190 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
-08:31:04.190 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v1.5.4.RELEASE)
-
-2017-09-07 08:31:04.539  INFO 8520 --- [    Test worker] t.p.pal.trackerapi.TimeEntryApiTest      : Starting TimeEntryApiTest on LIN37000770 with PID 8520 (started by sarsatis in D:\Users\sarsatis\Desktop\workspace\pal-tracker)
-2017-09-07 08:31:04.539  INFO 8520 --- [    Test worker] t.p.pal.trackerapi.TimeEntryApiTest      : No active profile set, falling back to default profiles: default
-2017-09-07 08:31:04.570  INFO 8520 --- [    Test worker] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15b93e5: startup date [Thu Sep 07 08:31:04 IST 2017]; root of context hierarchy
-2017-09-07 08:31:06.285  INFO 8520 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 0 (http)
-2017-09-07 08:31:06.300  INFO 8520 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2017-09-07 08:31:06.300  INFO 8520 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
-2017-09-07 08:31:06.502  INFO 8520 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2017-09-07 08:31:06.502  INFO 8520 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1932 ms
-2017-09-07 08:31:06.752  INFO 8520 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
-2017-09-07 08:31:06.767  INFO 8520 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
-2017-09-07 08:31:06.767  INFO 8520 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2017-09-07 08:31:06.767  INFO 8520 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2017-09-07 08:31:06.767  INFO 8520 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
-2017-09-07 08:31:07.346  INFO 8520 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15b93e5: startup date [Thu Sep 07 08:31:04 IST 2017]; root of context hierarchy
-2017-09-07 08:31:07.413  INFO 8520 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/env],methods=[GET]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.String&gt; io.pivotal.pal.tracker.EnvController.getEnv()
-2017-09-07 08:31:07.413  INFO 8520 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/time-entries/{id}],methods=[PUT]}&quot; onto public org.springframework.http.ResponseEntity&lt;io.pivotal.pal.tracker.TimeEntry&gt; io.pivotal.pal.tracker.TimeEntryController.update(java.lang.Long,io.pivotal.pal.tracker.TimeEntry)
-2017-09-07 08:31:07.413  INFO 8520 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/time-entries/{id}],methods=[DELETE]}&quot; onto public org.springframework.http.ResponseEntity&lt;io.pivotal.pal.tracker.TimeEntry&gt; io.pivotal.pal.tracker.TimeEntryController.delete(java.lang.Long)
-2017-09-07 08:31:07.413  INFO 8520 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/time-entries/{id}],methods=[GET]}&quot; onto public org.springframework.http.ResponseEntity&lt;io.pivotal.pal.tracker.TimeEntry&gt; io.pivotal.pal.tracker.TimeEntryController.read(java.lang.Long)
-2017-09-07 08:31:07.413  INFO 8520 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/time-entries],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;io.pivotal.pal.tracker.TimeEntry&gt; io.pivotal.pal.tracker.TimeEntryController.create(io.pivotal.pal.tracker.TimeEntry)
-2017-09-07 08:31:07.413  INFO 8520 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/time-entries],methods=[GET]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;io.pivotal.pal.tracker.TimeEntry&gt;&gt; io.pivotal.pal.tracker.TimeEntryController.list()
-2017-09-07 08:31:07.413  INFO 8520 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET]}&quot; onto public java.lang.String io.pivotal.pal.tracker.WelcomeController.sayHello()
-2017-09-07 08:31:07.429  INFO 8520 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2017-09-07 08:31:07.429  INFO 8520 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2017-09-07 08:31:07.460  INFO 8520 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-09-07 08:31:07.460  INFO 8520 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-09-07 08:31:07.523  INFO 8520 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2017-09-07 08:31:07.789  INFO 8520 --- [    Test worker] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 55681 (http)
-2017-09-07 08:31:07.789  INFO 8520 --- [    Test worker] t.p.pal.trackerapi.TimeEntryApiTest      : Started TimeEntryApiTest in 3.599 seconds (JVM running for 5.543)
-2017-09-07 08:31:07.992  INFO 8520 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
-2017-09-07 08:31:07.992  INFO 8520 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
-2017-09-07 08:31:08.023  INFO 8520 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
-</pre>
-</span>
-</div>
-<div id="tab2" class="tab">
-<h2>Standard error</h2>
-<span class="code">
-<pre>Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+<pre>2017-09-11 07:15:32.287  INFO 10944 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest], using SpringBootContextLoader
+2017-09-11 07:15:32.287  INFO 10944 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [test.pivotal.pal.trackerapi.TimeEntryApiTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-09-11 07:15:32.302  INFO 10944 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-09-11 07:15:32.302  INFO 10944 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f22cf05, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@a305315, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6f14d074, org.springframework.test.context.support.DirtiesContextTestExecutionListener@63e8d9cf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1acb7850, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@12eb38e7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5bb5ddbe, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7e3641a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3ffebfc8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@749984d0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1b4efd0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4d43b531]
 </pre>
 </span>
 </div>
@@ -193,7 +122,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 3.4.1</a> at Sep 7, 2017 8:31:08 AM</p>
+<a href="http://www.gradle.org">Gradle 3.4.1</a> at Sep 11, 2017 7:15:33 AM</p>
 </div>
 </div>
 </body>
