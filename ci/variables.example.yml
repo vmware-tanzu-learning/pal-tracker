@@ -7,3 +7,6 @@ github-private-key: |
   -----BEGIN RSA PRIVATE KEY-----
   REPLACE WITH YOUR PRIVATE KEY HERE
   -----END RSA PRIVATE KEY-----
+  aws-access-key-id: AKIAIRW2OU4MJ4A2J6AQ
+  aws-secret-access-key: NZc0cl4XCqHPzRqYBrjLKIqw9GvXGXF1IeVpLFr3
+  aws-bucket: https://api.sys.longs.pal.pivotal.io
