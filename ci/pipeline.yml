@@ -1,0 +1,31 @@
+---
+resources:
+- name: pal-tracker
+  type: git
+  source:
+    uri: {{github-repository}}
+    branch: master
+    private_key: {{github-private-key}}
+
+- name: deploy
+  type: cf
+  source:
+    api: {{cf-api-url}}
+    username: {{cf-username}}
+    password: {{cf-password}}
+    organization: {{cf-org}}
+    space: sandbox
+
+jobs:
+- name: build-and-deploy
+  plan:
+  - get: pal-tracker
+    trigger: true
+  - task: build and test
+    file: pal-tracker/ci/build.yml
+  - put: deploy
+    params:
+      manifest: pal-tracker/manifest.yml
+      path: build-output/pal-tracker.jar
+      environment_variables:
+        WELCOME_MESSAGE: "Hello from Concourse"
