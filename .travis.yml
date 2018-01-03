@@ -1,0 +1,39 @@
+dist: trusty
+sudo: false
+notifications:
+  email: false
+env:
+  - RELEASE_TAG="release-$TRAVIS_BUILD_NUMBER"
+if: tag IS blank
+
+
+jobs:
+  include:
+    - stage: build and publish
+      language: java
+      jdk: oraclejdk8
+      install: skip
+      script: ./gradlew clean build
+      before_deploy:
+        - git config --local user.name "Travis CI"
+        - git config --local user.email "travis@example.com"
+        - git tag -f $RELEASE_TAG
+      deploy:
+        provider: releases
+        api_key: $GITHUB_OAUTH_TOKEN
+        file: "build/libs/pal-tracker.jar"
+        skip_cleanup: true
+    - stage: deploy to review
+      language: bash
+      script:
+        - echo "Downloading $RELEASE_TAG"
+        - wget -P build/libs https://github.com/$GITHUB_USERNAME/pal-tracker/releases/download/$RELEASE_TAG/pal-tracker.jar
+      before_deploy:
+        - echo "Deploying $RELEASE_TAG to review"
+      deploy:
+        provider: cloudfoundry
+        api: $CF_API_URL
+        username: $CF_USERNAME
+        password: $CF_PASSWORD
+        organization: $CF_ORG
+        space: review
