@@ -2,4 +2,6 @@ build
 .gradle
 .idea
 *.iml
+out
+sshKeyLoc
 ci/variables.yml

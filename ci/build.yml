@@ -1,0 +1,35 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: openjdk
+    tag: '8-jdk'
+
+inputs:
+  - name: pal-tracker
+  - name: version
+
+outputs:
+  - name: build-output
+
+run:
+  path: bash
+  args:
+  - -exc
+  - |
+
+    export DEBIAN_FRONTEND="noninteractive"
+
+    apt-get update
+
+    apt-get -y install mysql-server
+    service mysql start
+
+    cd pal-tracker
+    mysql -uroot < databases/tracker/create_databases.sql
+    chmod +x gradlew
+    ./gradlew -P version=$(cat ../version/number) testMigrate clean build || (service mysql stop && exit 1)
+    service mysql stop
+
+    cp build/libs/pal-tracker-*.jar ../build-output
