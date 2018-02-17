@@ -1,9 +1,6 @@
-import org.flywaydb.gradle.task.FlywayMigrateTask
-
 plugins {
     id "java"
     id "org.springframework.boot" version "1.5.4.RELEASE"
-    id "org.flywaydb.flyway" version "4.2.0"
 }
 
 repositories {
@@ -14,7 +11,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.1")
     compile("org.springframework.boot:spring-boot-starter-jdbc")
-
+    compile('org.flywaydb:flyway-core:5.0.7')
     compile("mysql:mysql-connector-java:6.0.6")
 
     testCompile("org.springframework.boot:spring-boot-starter-test")
@@ -32,13 +29,3 @@ test.environment([
     "SPRING_DATASOURCE_URL": testDbUrl,
 ])
 
-flyway {
-    url = developmentDbUrl
-    user = "tracker"
-    password = ""
-    locations = ["filesystem:databases/tracker/migrations"]
-}
-
-task testMigrate(type: FlywayMigrateTask) {
-    url = testDbUrl
-}
