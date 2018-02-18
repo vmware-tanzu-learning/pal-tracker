@@ -22,7 +22,20 @@ We will not cover in this doc, it is fully covered under current CND
 migration lab.  
 
 ## On-Platform Migrations
+### Overview
+Cloud Native guidelines push "Admin Processes" as part of 12 Factors.
 
+But Kevin Hoffman argues against use of Admin Processe from interactive
+or off platform shells.
+This is somewhat of what the current CND lab does with flyway migrations 
+and SSH.
+
+The proposed solution does not completely do away with admin processes,
+but provides a way to handle on platform, with platform supported tools
+and methods, all while deploying from the domain's application
+deployment.
+
+### Solution
 Flyway is deployed as a dependency with the `pal-tracker` application
 and runs embedded with the pal-tracker application, both in-process,
 and as a Spring Cloud Task.
