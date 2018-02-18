@@ -7,3 +7,5 @@ applications:
   - tracker-database
   env:
     WELCOME_MESSAGE: Hello from Review!
+    STAGE: true
+    MANAGEMENT_SECURITY_ENABLED: false
