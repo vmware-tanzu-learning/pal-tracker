@@ -2,6 +2,8 @@
 applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
-  host: ps-pal-tracker
+  host: pal-tracker-production-bkable
   services:
   - tracker-database
+  env:
+    WELCOME_MESSAGE: Hello from Prod!
