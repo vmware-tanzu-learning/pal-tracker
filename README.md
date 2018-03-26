@@ -60,8 +60,8 @@ migration with Spring Cloud Dataflow or Batches).
 
 ## On-Platform Eager Migration
 
-Springboot will automatically wire Flyway to the SQL initializer that is
-run during Springboot application startup.
+Springboot will automatically wire Flyway to the SQL initializer that 
+is run during Springboot application startup.
 
 Simply starting or pushing `pal-tracker` *without* `STAGE` environment
 variable set will execute the packaged flyway migrations.
@@ -69,6 +69,10 @@ variable set will execute the packaged flyway migrations.
 Eager migrations are suitable *only* when the database changes are
 coupled to an app deployment (i.e. `cf push`), and the nature of the
 migration is simple DDL executed in a short running task.
+In short, the _only_ situation an eager migration should be used is in
+development.
+Eager migrations in production deployments are likely to be 
+problematic.
 
 ## On-Platform Task Migration
 
@@ -76,6 +80,8 @@ The On-platform task migration approach builds upon the On-platform
 eager migration solution, but by suppressing the SQL initialization
 of Flyway, and relying on either manual or scheduled Spring Cloud
 Tasks that will execute the migrations.
+This is the preferred way to streamline a migration process in a
+production scenario.
 
 The way this works is as follows:
 
@@ -121,23 +127,9 @@ Check out flyway migrations here:
 curl http://localhost:8080/flyway
 ```
 
-### On Platform Eager Migration - Cloud Foundy
-
-Remove `STAGE` environment variable from manifest.
-
-Push `pal-tracker` to Cloud Foundry:
-
-```bash
-cf push pal-tracker
-```
-
-That's it!
-
-Check out flyway migrations here:
-
-```bash
-curl http://{pal-tracker-route}/flyway
-```
+Remember:  Eager migrations should be used _only_ during development,
+and likely to be used in combination with flyway `clean` task to
+re-initialize test databases.
 
 ### On Platform Task Migration - Local
 #### Run Monitoring Application
@@ -168,6 +160,10 @@ What is the state of migration #1?  Why (hint:  It is only staged).
 
 *NOTE*: Look at the exceptions, you will see Spring Cloud Tasks
 fail.  Why?
+
+*NOTE*: Flyway `clean` task should _never_ be run in a production
+configuration.  Like with Eager migrations, it may be used to re-
+initialize databases when bootstrapping test environments.
 
 #### Migrate
 
