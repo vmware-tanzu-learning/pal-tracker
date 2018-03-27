@@ -74,6 +74,7 @@ jobs:
   plan:
   - get: pal-tracker
   - get: pal-tracker-artifacts
+    trigger: true
     passed: [deploy-review]
   - put: production-deployment
     params:
