@@ -3,21 +3,20 @@ plugins {
     id 'org.springframework.boot' version '1.5.9.RELEASE'
 }
 
-apply plugin: 'java'
-apply plugin: 'org.springframework.boot'
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
-jar {
-    manifest {
-        attributes (
-            "Main-Class": "io.pivotal.pal.tracker.PalTrackerApplication"
-        )
-    }
-}
+
+bootRun.environment([
+        "WELCOME_MESSAGE": "hello",
+])
+
+test.environment([
+        "WELCOME_MESSAGE": "Hello from test",
+])
