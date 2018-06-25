@@ -1,0 +1,23 @@
+plugins {
+    id "java"
+    id 'org.springframework.boot' version '1.5.9.RELEASE'
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+}
+
+jar {
+    manifest {
+        attributes (
+            "Main-Class": "io.pivotal.pal.tracker.PalTrackerApplication"
+        )
+    }
+}
