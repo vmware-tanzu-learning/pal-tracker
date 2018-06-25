@@ -3,6 +3,6 @@ applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
   routes:
-    - route: spab-apl-tracker-dev.apps.evans.pal.pivotal.io
+    - route: spab-pal-tracker-review.apps.evans.pal.pivotal.io
   env:
     WELCOME_MESSAGE: Hello from the review environment
