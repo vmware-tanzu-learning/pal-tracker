@@ -4,4 +4,4 @@ applications:
   path: build/libs/pal-tracker.jar
   random-route: true
   env:
-    WELCOME_MESSAGE: Hello from Cloud Foundry
+    WELCOME_MESSAGE: Hello from sandeep Cloud Foundry
