@@ -5,4 +5,4 @@ applications:
   routes:
   - route:sandeep-pal-tracker-travis-deploy-review.cfapps.io
   env:
-    WELCOME_MESSAGE: Hello from the sandeep review environmentss
+    WELCOME_MESSAGE: Hello from the sandeep review environmentsss
