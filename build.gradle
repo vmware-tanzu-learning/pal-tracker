@@ -10,4 +10,17 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
+
+test {
+    useJUnitPlatform()
+}
+
+bootRun.environment([
+        "WELCOME_MESSAGE": "howdy",
+])
+
+test.environment([
+        "WELCOME_MESSAGE": "Hello from test",
+])
