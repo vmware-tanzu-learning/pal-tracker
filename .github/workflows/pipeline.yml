@@ -13,6 +13,12 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 11
+    - name: Startup test database instance
+      run: sudo service mysql start
+    - name: Create test database
+      run: |
+        mysql -uroot -proot < databases/tracker/create_databases.sql
+        ./gradlew testMigrate
     - name: Build with Gradle
       run: ./gradlew build
     - name: Publish artifact
