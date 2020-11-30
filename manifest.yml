@@ -5,16 +5,18 @@ applications:
   buildpacks:
   - java_buildpack_offline
   stack: cflinuxfs3
-  memory: 1G
-  disk_quota: 1G
-  instances: 1
-  health-check-type: port
-  timeout: 60
+  memory: 512M
+  disk_quota: 256M
+  instances: 3
+  health-check-type: http
+  health-check-http-endpoint: /actuator/health/liveness
+  timeout: 20
   routes:
   - route: pal-tracker-${UNIQUE_IDENTIFIER}.${DOMAIN}
   services:
   - tracker-database
   env:
     WELCOME_MESSAGE: Hello from the review environment
-    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ }, memory_calculator: { stack_threads: 250 } }'
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ }, memory_calculator: { stack_threads: 100 } }'
     MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE: 'info,health,palTrackerFailure'
+    MANAGEMENT_HEALTH_PROBES_ENABLED: true
